@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftAlamofireExample}",
+            "name": "Debug SwiftAlamofireExample",
+            "program": "${workspaceFolder:SwiftAlamofireExample}\\.build\\debug\\SwiftAlamofireExample.exe",
+            "preLaunchTask": "swift: Build Debug SwiftAlamofireExample"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftAlamofireExample}",
+            "name": "Release SwiftAlamofireExample",
+            "program": "${workspaceFolder:SwiftAlamofireExample}\\.build\\release\\SwiftAlamofireExample.exe",
+            "preLaunchTask": "swift: Build Release SwiftAlamofireExample"
+        }
+    ]
+}
